@@ -3,8 +3,8 @@ name: Summarize Git Diff on Push
 on:
   push:
     branches:
-      - main
       - dev
+      - master
 
 jobs:
   summarize:
